@@ -1,1 +1,3 @@
 # MemeVerse-web-app
+A web app for sharing memes where users can register with their email and share memes and can also view other users meme. For now, the register and login pages are built. For the backend part Express framework of Node.js is used and for the front-end part Bootstrap templates are used. Users are authenticated using local strategy of passport authentication system and bycrypt is used for encrypting the password of the registered users. MongoDb nosql is used as a database for storing the data.
+Required dependencies: express, express-ejs-layouts, express-session, passport, passport-local, mongoose, ejs, ejs-lint, connect-flash, bcryptjs
